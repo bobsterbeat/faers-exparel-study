@@ -1,10 +1,11 @@
 # Liposomal Bupivacaine (Exparel®) and Prolonged Sensory/Motor Block: A Disproportionality Analysis of FAERS 2012–2025
 
 **Authors.** R. Aldwinckle, MD [+ collaborators]
-**Corresponding author.** [email]
-**Affiliations.** [department] · [institution]
+**Corresponding author.** [rjaldwinckle@health.ucdavi.edu]
+**Affiliations.** [Deaprtment of Anesthesiology & Pain Medicinedepartment] · [UC Davis]
 
-**Target journals** (primary): Regional Anesthesia & Pain Medicine · Anesthesia & Analgesia · Journal of Clinical Anesthesia · Drug Safety
+**Target journals** (primary): Drug Safety · Expert Opinion on Drug Safety · Pharmacoepidemiology and Drug Safety.
+**Secondary (anesthesiology audience):** British Journal of Anaesthesia · Regional Anesthesia & Pain Medicine.
 **Reporting guideline.** READUS-PV (Fusaroli et al., Drug Safety 2024), supplemented by STROBE where applicable.
 
 ---
