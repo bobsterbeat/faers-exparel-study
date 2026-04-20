@@ -6,9 +6,14 @@ authors:
   - family-names: Aldwinckle
     given-names: Robert
     affiliation: "Department of Anesthesiology and Pain Medicine, UC Davis Health"
-repository-code: "https://github.com/USERNAME/faers-exparel-study"
+repository-code: "https://github.com/bobsterbeat/faers-exparel-study"
 license: MIT
 date-released: 2026-04-19
+doi: 10.5281/zenodo.19656699
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19656699
+    description: "Zenodo archive of the v1.0.0 release (manuscript submission snapshot)"
 keywords:
   - pharmacovigilance
   - FAERS

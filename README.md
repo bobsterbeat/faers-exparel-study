@@ -1,5 +1,8 @@
 # FAERS Exparel Disproportionality Study
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19656699.svg)](https://doi.org/10.5281/zenodo.19656699)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Real-world adverse event signal detection for liposomal bupivacaine (Exparel®) compared with plain bupivacaine and ropivacaine, using the FDA Adverse Event Reporting System (FAERS), 2012 Q4 – 2025 Q4.
 
 Manuscript: *Liposomal Bupivacaine (Exparel®) and Prolonged Sensory/Motor Block: A Disproportionality Analysis of FAERS 2012–2025* (in preparation).
@@ -105,7 +108,11 @@ Raw FAERS data (`data/raw/`) is gitignored — it is public domain and fetched b
 
 ## Citation
 
-See `CITATION.cff`. If you use this code or its derived datasets, please cite both the manuscript and the repository snapshot.
+If you use this code or its derived datasets, please cite both the manuscript (once published) and this repository snapshot:
+
+> Aldwinckle R. FAERS Exparel Disproportionality Study. Zenodo; 2026. doi:10.5281/zenodo.19656699
+
+See also `CITATION.cff` for a machine-readable citation record.
 
 ## License
 
