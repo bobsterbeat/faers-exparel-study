@@ -102,6 +102,10 @@ Era was assigned to each case via `event_dt`; where `event_dt` was missing (≈7
 
 All analysis code (Python 3.14, pandas 2.3) is available at [repository]. Pipeline, composite-endpoint scripts, figure scripts, and this manuscript are version-controlled. Random-seed determinism is inapplicable (no resampling).
 
+### 2.9 Ethics statement
+
+This study used publicly available, de-identified individual case safety reports from the FDA Adverse Event Reporting System (FAERS), released by the U.S. Food and Drug Administration as quarterly ASCII data extracts under the Freedom of Information Act. The analysis does not meet the definition of human subjects research under 45 CFR 46.102 because the data are (a) publicly available, (b) de-identified by the FDA prior to release, and (c) not obtained through interaction or intervention with individuals. Institutional Review Board review was therefore not required. No identifying patient information was accessed by the investigators, and no attempt at re-identification was made. A Not Human Subjects Research determination from the [UC Davis Institutional Review Board / institution] [is on file / has been requested].
+
 ## 3. Results
 
 ### 3.1 Cohort
