@@ -1,0 +1,2 @@
+n_cases_with_event_dt,median_lag_days,q25_lag_days,q75_lag_days,n_lag_gt_30d,n_lag_gt_90d,n_lag_gt_180d,pct_lag_gt_30d,pct_lag_gt_90d,pct_lag_gt_180d
+97,206.0,104.0,344.0,84,76,56,86.6,78.4,57.7

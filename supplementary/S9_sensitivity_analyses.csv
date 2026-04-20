@@ -1,0 +1,11 @@
+restriction,composite,exparel_cases,bupi_cases,a,b,ROR,ROR_lower,ROR_upper,PRR,chi2,IC025,signal
+none (primary analysis),prolonged_block_full,2127,6096,222,235,2.906,2.402,3.517,2.707,90.25,0.673,True
+none (primary analysis),pathology_implying,2127,6096,71,96,2.158,1.582,2.945,2.12,17.26,0.31,True
+serious outcomes only,prolonged_block_full,882,6096,51,235,1.531,1.121,2.09,1.5,5.7,0.056,False
+serious outcomes only,pathology_implying,882,6096,30,96,2.201,1.451,3.337,2.16,11.57,0.318,True
+physician-reported only,prolonged_block_full,1048,6096,73,235,1.867,1.424,2.449,1.807,16.52,0.313,False
+physician-reported only,pathology_implying,1048,6096,24,96,1.465,0.932,2.302,1.454,1.98,-0.194,False
+exclude pregnancy/neonatal,prolonged_block_full,2114,5552,222,206,3.045,2.501,3.707,2.83,90.71,0.674,True
+exclude pregnancy/neonatal,pathology_implying,2114,5552,71,79,2.408,1.74,3.331,2.36,20.52,0.365,True
+exclude mfr-submitted,prolonged_block_full,29,6096,2,235,1.847,0.437,7.815,1.789,0.13,-1.247,False
+exclude mfr-submitted,pathology_implying,29,6096,0,96,1.078,0.065,17.772,1.076,0.0,-4.975,False

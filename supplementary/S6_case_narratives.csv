@@ -1,0 +1,21 @@
+era,age_band,sex,reporter_type,indication,reactions,outcomes
+pre-2018,45–49,M,MD,Postoperative analgesia,Diplegia; Hypoaesthesia; Hypotonia; Impaired healing; Injection site extravasation; Muscular weakness; Paraesthesia; Peroneal nerve palsy; Weight bearing difficulty,HO; OT
+pre-2018,30–34,M,MD,Nerve block,Neuromuscular block prolonged; Off label use,HO
+pre-2018,85–89,M,MD,Postoperative analgesia,Peroneal nerve palsy,OT
+2018–2020,45–49,F,OT,Postoperative analgesia,Hypoaesthesia,
+2018–2020,50–54,F,CN,Procedural pain,Cholinergic syndrome; Myasthenia gravis; Paralysis,HO; LT; OT
+2018–2020,55–59,M,CN,Nerve block,Asthenia; Hypersensitivity; Hypoaesthesia; Musculoskeletal pain; Sensory disturbance; Therapeutic product effect variable,DS
+2018–2020,unknown,F,MD,Nerve block,Hypoaesthesia; Labelled drug-drug interaction medication error,
+2018–2020,65–69,F,CN,Postoperative analgesia,Hypoaesthesia; Peroneal nerve palsy,
+2018–2020,55–59,F,CN,Postoperative analgesia,Dizziness; Median nerve injury; Neuritis; Pain in extremity; Paralysis,DS
+2018–2020,40–44,F,CN,Postoperative analgesia,Hypoaesthesia; Suppressed lactation,
+2021+,70–74,F,CN,Nerve block,Hypoaesthesia,
+2021+,unknown,,MD,Spinal anaesthesia,Sensory loss,
+2021+,unknown,,CN,Product used for unknown indication,Hypoaesthesia; Therapeutic response prolonged,
+2021+,unknown,,MD,,Hypoaesthesia,
+2021+,unknown,,CN,Knee arthroplasty,Hypoaesthesia; Therapeutic product effect prolonged,
+2021+,45–49,F,MD,Nerve block,Off label use; Sensory loss; Therapeutic product effect prolonged,
+2021+,unknown,,MD,Nerve block,Hypoaesthesia; Off label use,
+2021+,unknown,M,MD,Nerve block,Motor dysfunction; Sensory loss,
+2021+,60–64,M,MD,,Motor dysfunction,
+2021+,60–64,F,MD,Postoperative analgesia; Postoperative care; Preoperative care; Thrombosis prophylaxis,Fibula fracture; Peroneal nerve palsy,OT

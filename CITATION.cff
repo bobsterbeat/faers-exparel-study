@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "FAERS Exparel Disproportionality Study"
+message: "If you use this software or derived datasets, please cite both the manuscript and this repository."
+type: software
+authors:
+  - family-names: Aldwinckle
+    given-names: Robert
+    affiliation: "Department of Anesthesiology and Pain Medicine, UC Davis Health"
+repository-code: "https://github.com/USERNAME/faers-exparel-study"
+license: MIT
+date-released: 2026-04-19
+keywords:
+  - pharmacovigilance
+  - FAERS
+  - disproportionality analysis
+  - liposomal bupivacaine
+  - Exparel
+  - peripheral nerve block
+  - regional anesthesia
+references:
+  - type: article
+    title: "Liposomal Bupivacaine (Exparel) and Prolonged Sensory/Motor Block: A Disproportionality Analysis of FAERS 2012–2025"
+    authors:
+      - family-names: Aldwinckle
+        given-names: Robert
+    year: 2026
+    status: "in preparation"

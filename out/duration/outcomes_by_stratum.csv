@@ -1,0 +1,5 @@
+stratum,n_cases,n_DE,n_LT,n_DS,n_HO,n_RI,n_CA,pct_DE,pct_LT,pct_DS,pct_HO,pct_RI,pct_CA
+all_prolonged_block,232,2,2,10,26,0,0,0.86,0.86,4.31,11.21,0.0,0.0
+pathology_implying,71,2,2,6,10,0,0,2.82,2.82,8.45,14.08,0.0,0.0
+expected_pharmacology,169,0,0,6,19,0,0,0.0,0.0,3.55,11.24,0.0,0.0
+systemic_absorption,14,0,0,0,2,0,0,0.0,0.0,0.0,14.29,0.0,0.0
