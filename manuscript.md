@@ -100,7 +100,7 @@ Era was assigned to each case via `event_dt`; where `event_dt` was missing (≈7
 
 ### 2.8 Software and reproducibility
 
-All analysis code (Python 3.14, pandas 2.3) is available at [repository]. Pipeline, composite-endpoint scripts, figure scripts, and this manuscript are version-controlled. Random-seed determinism is inapplicable (no resampling).
+All analysis code (Python 3.14, pandas 2.3) is available at https://github.com/bobsterbeat/faers-exparel-study and archived at Zenodo (doi:10.5281/zenodo.19656699). The repository contains the full ingestion pipeline, composite-endpoint and subgroup scripts, figure- and table-generation scripts, and this manuscript source. Derived datasets (case-level extract, composite tables, per-year rates, sensitivity outputs) are included. Raw FAERS data are not redistributed — they are public domain and obtainable via the `download_faers.sh` script included in the repository. Random-seed determinism is inapplicable (no resampling).
 
 ### 2.9 Ethics statement
 
@@ -264,7 +264,7 @@ Exparel is disproportionately associated with prolonged sensory/motor block in F
 
 ## Data and code availability
 
-All analysis code and figure-generation scripts are available at [repository]. FAERS raw data are public domain (US federal government). Intermediate derived datasets (case-level extract, composite tables) are included in the repository's `out/` directory.
+All analysis code, figure- and table-generation scripts, and supplementary appendices S1–S9 are available at https://github.com/bobsterbeat/faers-exparel-study and archived at Zenodo (doi:10.5281/zenodo.19656699). FAERS raw data are public domain (US federal government) and obtainable via the `download_faers.sh` script in the repository. Intermediate derived datasets (case-level extract, composite tables, per-year rates, sensitivity outputs) under 100 MB are included in the repository's `out/` directory; larger parquet artefacts are regenerable via the documented pipeline.
 
 ## Funding and disclosures
 
