@@ -128,4 +128,4 @@ Raw FAERS data: US federal government public domain.
 
 ## Contact
 
-Robert Aldwinckle, MD · Department of Anesthesiology and Pain Medicine · UC Davis Health · [email]
+Robin Aldwinckle, MD · Department of Anesthesiology and Pain Medicine · UC Davis Health · [rjaldwinckle@health.ucdavis.edu]
