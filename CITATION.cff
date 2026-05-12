@@ -4,7 +4,7 @@ message: "If you use this software or derived datasets, please cite both the man
 type: software
 authors:
   - family-names: Aldwinckle
-    given-names: Robert
+    given-names: Robin
     affiliation: "Department of Anesthesiology and Pain Medicine, UC Davis Health"
 repository-code: "https://github.com/bobsterbeat/faers-exparel-study"
 license: MIT
