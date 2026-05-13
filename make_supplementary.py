@@ -30,7 +30,7 @@ def age_band(age) -> str:
     return f"{lo}–{lo+4}"
 
 
-def s6_case_narratives(out_dir: Path) -> None:
+def s4_case_narratives(out_dir: Path) -> None:
     """Twenty representative cases (ages redacted to 5-year bands, no
     concomitant-drug lists, no reporter country, no free-text drugname).
     Covers era and sub-phenotype: peroneal-specific, prolonged-block,
@@ -78,11 +78,11 @@ def s6_case_narratives(out_dir: Path) -> None:
         })
 
     out = pd.DataFrame(rows)
-    out.to_csv(out_dir / "S6_case_narratives.csv", index=False)
-    print(f"S6: {len(out)} cases written")
+    out.to_csv(out_dir / "S4_case_narratives.csv", index=False)
+    print(f"S4: {len(out)} cases written")
 
 
-def s7_regex_audit(out_dir: Path) -> None:
+def s5_regex_audit(out_dir: Path) -> None:
     """Random sample of matched and unmatched drugnames to show the regex
     is neither too strict nor too permissive. Reviewers can inspect."""
     data = Path("data/raw")
@@ -132,7 +132,7 @@ def s7_regex_audit(out_dir: Path) -> None:
         top["drug_group"] = grp
         matched_summary.append(top)
     matched = pd.concat(matched_summary, ignore_index=True)
-    matched.to_csv(out_dir / "S7_regex_matched_samples.csv", index=False)
+    matched.to_csv(out_dir / "S5_regex_matched_samples.csv", index=False)
 
     # 2. Random sample of 30 UNMATCHED drugnames that plausibly could be
     #    a local anesthetic — show the regex doesn't catch unrelated drugs.
@@ -145,16 +145,16 @@ def s7_regex_audit(out_dir: Path) -> None:
     sample = (adj["drugname"].value_counts().head(sample_n).reset_index()
               if sample_n else pd.DataFrame(columns=["drugname", "count"]))
     sample.columns = ["drugname", "count"]
-    sample.to_csv(out_dir / "S7_regex_unmatched_la_adjacent.csv", index=False)
+    sample.to_csv(out_dir / "S5_regex_unmatched_la_adjacent.csv", index=False)
 
-    print(f"S7: {len(matched)} matched + {len(sample)} unmatched-adjacent rows written")
+    print(f"S5: {len(matched)} matched + {len(sample)} unmatched-adjacent rows written")
 
 
 def main() -> None:
     out_dir = Path("supplementary")
     out_dir.mkdir(exist_ok=True)
-    s6_case_narratives(out_dir)
-    s7_regex_audit(out_dir)
+    s4_case_narratives(out_dir)
+    s5_regex_audit(out_dir)
     print(f"\nSupplementary files → {out_dir}/")
 
 
