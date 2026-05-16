@@ -92,7 +92,7 @@ Three epochs were selected a priori: pre-2018 (2012 Q4 -- 2017 Q4; pre-interscal
 2.8 Software and reproducibility
 --------------------------------
 
-All analysis code (Python 3.14, pandas 2.3) is available at https://github.com/bobsterbeat/faers-exparel-study (Zenodo DOI: 10.5281/zenodo.19656699). Pipeline, composite-endpoint scripts, figure-generation scripts, and manuscript source are version-controlled. Random-seed determinism is not applicable (no resampling).
+All analysis code (Python 3.14, pandas 2.3) is available at https://github.com/bobsterbeat/faers-exparel-study and archived at Zenodo under concept DOI 10.5281/zenodo.19656698, which always resolves to the latest version. The specific snapshot used for this manuscript is version v7.10 (DOI 10.5281/zenodo.20222469). Pipeline, composite-endpoint scripts, figure-generation scripts, and manuscript source are version-controlled. Random-seed determinism is not applicable (no resampling).
 
 3. Results
 ==========
@@ -323,7 +323,7 @@ Not applicable. No identifiable individual data are reported.
 Data availability
 -----------------
 
-FAERS raw data are publicly available from the U.S. FDA Freedom of Information Office (https://fis.fda.gov/extensions/FPD-QDE-FAERS/). The frozen analytic dataset used in this study, including all intermediate derived datasets, is archived at Zenodo with DOI 10.5281/zenodo.19656699.
+FAERS raw data are publicly available from the U.S. FDA Freedom of Information Office (https://fis.fda.gov/extensions/FPD-QDE-FAERS/). The analytic dataset used in this study, including all intermediate derived datasets, is archived at Zenodo under concept DOI 10.5281/zenodo.19656698 (always-latest); the v7.10 snapshot corresponding to this manuscript is permanently archived at DOI 10.5281/zenodo.20222469.
 
 Code availability
 -----------------
